@@ -25,7 +25,7 @@ public class LocalGame {
      */
     public static void main(String[] args) {
         Hangman game = new Hangman();
-        Player player = new LocalPlayer(game);
+        Player player = new LocalPlayer();
         // Player player = new ArtificialPlayer();
         game.playGame(player);
     }
