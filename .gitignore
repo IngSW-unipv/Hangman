@@ -13,3 +13,7 @@ hs_err_pid*
 /HangmanServer/build/
 /HangmanServer/dist/
 /HangmanServer/nbproject/private/
+
+# IntellliJ files
+.idea
+*.iml
